@@ -851,8 +851,6 @@ footer {
 	height: 3rem;
 	margin-left: 0;
 	
-	
-	border:  purple 3px dotted;
 }
 
 #whatsapp {
@@ -871,7 +869,7 @@ footer {
 	flex-direction: column;
 	height: 17rem;
 	width: 100%;
-	border:  yellow 3px dotted;
+	
 }
 
 iframe {
