@@ -619,15 +619,87 @@ footer {
 
 
 /*-------------------- MEDIA -------------------------------------*/
-@media (min-width:200px) and (max-width:425px) {
+@media (min-width:200px) and (max-width:450px) {
     html {
  position: relative;
 	}
 
-	nav ul {
+	header {
+
+		width: 25.2rem;
+		height: 9rem;
 		
+		display: flex;
+		flex-direction: column;
+		
+		
+		position:fixed;
+		justify-content:center;
+		align-self: center;
+		margin: 0;
+		
+		
+	}
+
+	.caixaheader {
+		border:  red 1px dotted;
+		width: 20rem;
 		box-sizing: border-box;
-		width: 100%;
+		
+		
+		align-items: center;
+		justify-content: center;
+		
+	}
+
+
+	.caixalogo {
+		height:100%;
+		height: 8rem;
+		border:  green 3px dotted;
+		box-sizing: border-box;
+		
+		
+	}
+
+	.logo {
+		height: rem;
+	}
+
+	.caixamenu {
+		display: flex;
+		flex-direction: column;
+		width: 2rem;
+		height: 60%;
+		border:  green 3px dotted;
+		justify-content: center;
+		align-self: center;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		border:  blue 3px dotted;
+		height: 8rem;
+		
+		
+	}
+
+	nav ul li {
+		width: 2rem;
+		height: 0.5rem;
+		box-sizing: border-box;
+		width: 5rem;
+		font-size: 60%;
+		
 	}
 
     .titulo-sobre {
@@ -715,6 +787,105 @@ footer {
 		padding: 0rem;
 		height: 100%;
 	}
+
+/* --------------------------------contato ------------------*/
+
+.contatotitulo {
+	padding: 2rem;
+}
+
+.contato-border-wrap {
+	height: 50rem;
+	
+
+}
+
+
+
+.contatoboxpreto {
+	display:flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content:flex-start;
+}
+
+.caixacontato {
+	display:flex;
+	flex-direction: column-reverse;
+	
+	height: 100%;
+	align-items: center;
+	justify-content:space-around;
+	
+	width: 80%;
+	
+}
+
+.contatodireito {
+	display:flex;
+	flex-direction: column;
+	height: 15rem;
+	width: 100%;
+
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.iconescaixa {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+	
+	width: 80%;
+	height: 7rem;
+	
+	
+}
+
+.whatsapp {
+	width: 10rem;
+	height: 3rem;
+	margin-left: 0;
+	
+	
+	border:  purple 3px dotted;
+}
+
+#whatsapp {
+	height: 75%;
+}
+
+.listaicone {
+	width: 16rem;
+	height: 2rem;
+	font-size: 0.8rem;
+	
+}
+
+.contatoesquerdo {
+	display:flex;
+	flex-direction: column;
+	height: 17rem;
+	width: 100%;
+	border:  yellow 3px dotted;
+}
+
+iframe {
+	height:16rem;
+	width:95%;
+}
+
+
+footer {
+	height: 18rem;
+}
+
+
+
 }
 
 
