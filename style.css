@@ -1,0 +1,823 @@
+html {
+	scroll-behavior:smooth;
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior:smooth;
+	position: relative;
+	margin-top: 10rem;
+	background-color: #020411;
+	
+}
+
+/*========================================= CABECALHO ==========================================*/
+
+header {
+	position:fixed;
+	background-color: #020411;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	top:0rem;
+	z-index: 2;
+	
+	
+}
+
+header .caixaheader {
+	display: flex;
+	justify-content: space-around;
+	height: 8rem;
+	margin: 0 1.5rem;
+	
+}
+
+.caixalogo {
+	
+	height: auto;
+	overflow: hidden;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.logo {
+	
+	height: 25vh;
+	width: auto;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+
+.caixamenu {
+	
+	font-size: 700;
+	height: auto;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
+	margin-left: 3rem;
+	
+}
+
+nav {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+	color: #f755e1;
+	text-shadow: -1px 1px #3dd8fc;
+	font-family: 'Kanit', sans-serif;
+	font-weight:800;
+	text-decoration: none;
+	-webkit-font-smoothing: auto;
+
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	align-items: center;
+	text-decoration: none;
+	transition: 0.3s;
+	
+	
+	
+}
+
+nav ul li {
+	display:inline;
+	font-size:x-large;
+	text-align: center;
+	padding:2rem;
+	text-decoration: none;
+	letter-spacing: 0.2rem;
+	transition: 0.3s;
+	
+}
+
+
+a:link {
+	color: #f755e1;
+	transition: 0.3s;
+}
+
+a:visited {
+	color:#f755e1;
+}
+nav a:hover {
+	transition: 0.3s;
+	color:#3dd8fc;
+	text-shadow: -1px 1px #f755e1;
+}
+
+nav a:active {
+	color:#3dd8fc;
+	text-shadow: -1px 1px #f755e1;
+}
+
+.divider {
+	height: 6px;
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+}
+/*============================== CORPO DA PAGINA ==============================*/
+
+
+/*============================== VIDEO BANNER =================================*/
+video {
+	width: 100%;
+  	height: auto;
+	margin: 0;
+}
+
+.divider-1 {
+	top:1;
+	height: 10px;
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+}
+
+/*=============================== MAIN ======================================*/
+/*=============================== 1- Sobre ======================================*/
+
+.sobre-border-wrap{
+	scroll-margin-top: 20vh;
+	height: 77vh;
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+
+	border-radius: 50px;
+	margin: 0 2rem;
+	display:flex;
+	padding: 0.2rem;
+
+	
+}
+
+.sobreboxpreto {
+	color:#FFFFFF;
+	background: #020411;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 2px;
+	place-items: center;
+	position: relative;
+	border-radius: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width:100%;
+}
+
+.titulo-sobre {
+	justify-content: center;
+	font-family: 'Kanit', sans-serif;
+	font-size: 2rem;
+	
+	
+	-webkit-font-smoothing: antialiased;
+	text-shadow: -1px 1px #0a4e5e;
+	font-weight:800;
+}
+
+#nome {
+	font-family: 'amsterdamfour_ttf', cursive;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: -1px 1px #3dd8fc;
+	color:#f755e1;
+	font-weight: 400;
+}
+
+.caixaconteudo {
+	
+	display: flex;
+	flex-direction: row;
+	
+	
+	width: 97%;
+	height: 48vh;
+}
+
+.caixaesquerda {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5rem;
+	
+	width:50%;
+	justify-content:space-between;
+	align-items: center;
+	text-align: center;
+	padding: 1rem 2rem;
+	
+}
+
+.sobrecaixa{
+	display: flex;
+	flex-direction: column;
+	
+	text-align: justify;
+	padding: 0 4rem;
+	height: 30vh;
+	
+	justify-content:space-between;
+	align-items:center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2rem;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: -1px 1px #4d575a;
+	
+}
+.missao {
+	margin-top: 2rem;
+	
+	display: flex;
+	
+	height: 25vh;
+	justify-content: center;
+	align-items:center;
+	font-weight: 400;
+}
+
+#missao {
+	font-size: 500;
+	font-family: 'Dosis', sans-serif;
+}
+
+.caixadireita {
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+	display: flex;
+	height:40vh;
+	width: 29vw;
+	border-radius: 10%;
+	justify-content:flex-start;
+	
+	top: 2rem;
+	left: 5rem;
+	margin-left: 2rem;
+	
+	
+}
+
+
+
+#casalpc {
+	
+	height: 18rem;
+	border-radius: 10%;
+	margin-top: 1.5rem;
+	position:relative;
+	
+	right:1rem
+	
+
+}
+
+
+
+
+
+/*=============================== 2 - Servicos ======================================*/
+
+.servicos-border-wrap {
+	scroll-margin-top: 20vh;
+	height: 77vh;
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+
+	border-radius: 50px;
+	margin-left:2rem;
+	margin-right: 2rem;
+	margin-top:2rem;
+	display:flex;
+	padding: 0.2rem;
+}
+
+.servicosboxpreto {
+	color:#FFFFFF;
+	background: #020411;
+	margin: 2px;
+	position: relative;
+	border-radius: inherit;
+	display: flex;
+	flex-direction:column;
+	width:100%;
+	align-items: center;
+	align-content: center;
+}
+
+.servicostitulo {
+	margin-top:1.5rem;
+	margin-bottom: 2rem;;
+	font-family: 'Kanit', sans-serif;
+	justify-content: center;
+	font-size: 2rem;
+	font-weight:800;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: -1px 1px #0a4e5e;
+	
+	padding:2rem;
+	display: flex;
+}
+
+.cards-grid {
+	display: flex;
+	flex-direction: row;
+	
+	
+	width: 90vw;
+	height: 50vh;
+	
+}
+
+.flip-horizontal-bottom {
+	
+	display: flex;
+	flex-direction: column;
+	margin: 0 1rem;
+	padding: 1rem;
+	justify-content:initial;
+	align-items: center;
+	align-content:flex-start;
+	width: inherit;
+	height: auto;
+	
+	background-image: url(./assets/cardwallpaper.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+
+
+.imagemcards {
+	display: flex;
+  	margin-bottom: 1.8rem;
+  	width: auto;
+	height: 6rem;
+	
+	
+	
+}
+
+h3 {
+	font-family: 'Kanit', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.4rem;
+	margin-bottom: 0.75rem;
+	justify-content: center;
+	text-align: center;
+	height: 3.5rem;
+	color:whitesmoke;
+	text-shadow: -1px 1px #f755e1;
+	
+  }
+
+  p {
+	font-family: 'Dosis', sans-serif;
+	  font-size: 1rem;
+	  justify-content: center;
+	  text-align: center;
+	  -webkit-font-smoothing: antialiased;
+	  text-shadow: -1px 1px #4d575a;
+  }
+
+/*=============================== 3 - Contato ======================================*/
+.contato-border-wrap {
+	scroll-margin-top: 21vh;
+	height: 76vh;
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+
+	border-radius: 50px;
+	margin-left:2rem;
+	margin-right: 2rem;
+	margin-top:2rem;
+	display:flex;
+	padding: 0.2rem;
+}
+
+.contatoboxpreto {
+	color:#FFFFFF;
+	background: #020411;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 2px;
+	place-items: center;
+	position: relative;
+	border-radius: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width:100%;
+}
+
+.contatotitulo {
+	font-family: 'Kanit', sans-serif;
+	justify-content: center;
+	font-size: 2rem;
+	font-weight:800;
+
+	margin-top: 2rem;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: -1px 1px #0a4e5e;
+	
+	padding:2rem;
+	display: flex;
+}
+
+.caixacontato {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	height: 55vh;
+	margin-bottom:1.5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	width: 80vw;
+	justify-content:space-between;
+	padding-bottom: 2rem;
+}
+
+.contatoesquerdo {
+	
+	width: 38vw;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+	border-radius: 10%;
+}
+
+iframe {
+	height: 48vh;
+	width: 36vw;
+	border-radius: 9%;
+}
+
+.contatodireito {
+	
+	width: 38vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+}
+
+.iconescaixa {
+	
+	
+	padding: 2rem;
+	font-family: 'Kanit', sans-serif;
+	letter-spacing: 1px;
+	
+	display: flex;
+	flex-direction: column;
+	width: 22rem;
+	height: 12rem;
+	
+	
+	
+
+}
+
+.listaicone {
+	
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icones {
+	margin-right: 0.5rem;
+	height: 3rem;
+}
+
+.whatsapp {
+	
+	margin-top: 1rem;
+	border-radius: 5px;
+	height: 4rem;
+	width:12rem;
+	display: flex;
+	margin-left: 10rem;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Kanit', sans-serif;
+	letter-spacing: 1px;
+
+	
+	color: #ffffff;
+	text-shadow: -1px 1px #f755e1;
+	box-shadow:-1px 1px  #a39d9d;
+	
+
+	background: linear-gradient(
+	  40deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+}
+
+/*=============================== FOOTER ======================================*/
+.divider-footer {
+	margin-top:1rem;
+	height: 6px;
+	background: linear-gradient(
+	  43deg,
+	  #020411,
+	  #f755e1,
+	  #3dd8fc,
+	  #020411
+	);
+}
+footer {
+	width: 100%;
+	height: 8rem;
+	text-align: center;
+	background: #020411;
+	
+	
+}
+
+#logofooter{
+	width: 4.6rem;
+	padding-top: 1rem;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: 'Kanit', sans-serif;
+	text-shadow: -1px 1px #020411;
+	
+}
+
+
+
+
+/*-------------------- MEDIA -------------------------------------*/
+@media (min-width:200px) and (max-width:425px) {
+    html {
+ position: relative;
+	}
+
+	nav ul {
+		
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+    .titulo-sobre {
+		display: flex;
+		font-size: 1.5rem;
+		height:5rem;
+		margin: 2rem 0;
+		
+		
+		width: 100%;
+	
+		align-items: center;
+    }
+
+	.sobre-border-wrap {
+		height: 131vh;
+
+	}
+    
+    .sobreboxpreto {
+		justify-content:space-between;
+		align-items:center;
+		flex-direction: column;
+		box-sizing: border-box;
+		height: 130vh;
+		padding: 1rem;
+		
+		
+	}
+
+	.caixaconteudo {
+		align-items: center;
+		flex-direction:column-reverse;
+		margin-top: 1rem;
+		box-sizing: border-box;
+		
+		width:100%;
+		height: 180vh;
+		box-sizing: border-box;
+		position:relative;
+		justify-content:space-between;
+
+	}
+
+	.caixadireita {
+		width: 90%;
+		height: 30vh;
+		justify-content:center;
+
+	}
+
+	#casalpc {
+		width: 68vw;
+		height:30vh;
+	}
+
+	.caixaesquerda {
+		font-size: 5px;
+	
+		
+		margin-top: 3rem;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding:0rem;
+	}
+
+	.sobrecaixa {
+		
+		height:50vh;
+		width:100%;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		
+		font-family: 'Dosis', sans-serif;
+		padding:0rem;
+	}
+
+	.missao {
+		
+		font-size: 400;
+		margin-top: 1rem;
+		padding: 0rem;
+		height: 100%;
+	}
+}
+
+
+
+@media (min-width:1920px) and (max-width:2080px) {
+	.sobre-border-wrap {
+ 		height: 82vh;
+		 scroll-margin-top: 15vh;
+	}
+
+
+	.titulo-sobre {
+		justify-content: center;
+		font-family: 'Kanit', sans-serif;
+		font-size: 4rem;
+	}
+
+	nav ul li {
+		font-size:xx-large;
+	}
+
+	.sobrecaixa {
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+
+	p {
+		font-size: 1.6rem;
+	}
+
+	.caixadireita {
+		width: 35vw;
+		display: flex;
+		position: relative;
+	}
+
+	#casalpc {
+		width: 97%;
+		height: 100%;
+	}
+
+	.servicos-border-wrap {
+		height: 82vh;
+		 scroll-margin-top: 15vh;
+	}
+
+	.servicosboxpreto {
+		justify-content: space-evenly
+	}
+
+	.servicostitulo {
+		justify-content: center;
+		font-family: 'Kanit', sans-serif;
+		font-size: 4rem;
+	}
+
+	.cards-grid {
+		margin-top: 0;
+	}
+	
+	.flip-horizontal-bottom {
+		font-size:  2rem;
+		display: flex;
+		
+	}
+
+	.imagemcards {
+		width: 60%;
+		height: auto;
+	}
+
+	h3 {
+		font-size: 2rem;
+		margin-bottom: 2.5rem;
+	}
+
+
+	.contato-border-wrap {
+		height: 82vh;
+		scroll-margin-top: 15vh;
+
+	}
+
+	.contatotitulo {
+		justify-content: center;
+		font-family: 'Kanit', sans-serif;
+		font-size: 4rem;
+
+	}
+
+	.contatodireito {
+		font-size: 1.6rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	.whatsapp {
+		height: 4rem;
+		width:15rem;
+	}
+
+}
+
+
+
+	
