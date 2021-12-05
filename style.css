@@ -37,7 +37,7 @@ header .caixaheader {
 
 .caixalogo {
 	
-	height: auto;
+	height: 100%;
 	overflow: hidden;
 	width: 50%;
 	align-items: center;
@@ -49,11 +49,12 @@ header .caixaheader {
 
 .logo {
 	
-	height: 25vh;
-	width: auto;
+	height: 100%;
+	width: 8rem;
 	overflow: hidden;
 	align-items: center;
 	justify-content: center;
+	margin-left: 5rem;
 }
 
 .caixamenu {
