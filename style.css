@@ -22,7 +22,7 @@ header {
 	width: 100%;
 	top:0rem;
 	z-index: 2;
-	
+
 	
 }
 
@@ -31,6 +31,7 @@ header .caixaheader {
 	justify-content: space-around;
 	height: 8rem;
 	margin: 0 1.5rem;
+
 	
 }
 
@@ -635,14 +636,14 @@ footer {
 		
 		position:fixed;
 		justify-content:center;
-		align-self: center;
+		
 		margin: 0;
 		
 		
 	}
 
 	.caixaheader {
-		border:  red 1px dotted;
+		
 		width: 20rem;
 		box-sizing: border-box;
 		
@@ -652,18 +653,21 @@ footer {
 		
 	}
 
+	nav ul li {
+		display: none;
+	}
 
 	.caixalogo {
 		height:100%;
 		height: 8rem;
-		border:  green 3px dotted;
+		
 		box-sizing: border-box;
 		
 		
 	}
 
 	.logo {
-		height: rem;
+		margin-left:2.6rem;
 	}
 
 	.caixamenu {
@@ -671,9 +675,11 @@ footer {
 		flex-direction: column;
 		width: 2rem;
 		height: 60%;
-		border:  green 3px dotted;
+		
 		justify-content: center;
 		align-self: center;
+		display: none;
+
 	}
 
 	nav {
@@ -687,7 +693,7 @@ footer {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
-		border:  blue 3px dotted;
+		
 		height: 8rem;
 		
 		
@@ -787,6 +793,35 @@ footer {
 		padding: 0rem;
 		height: 100%;
 	}
+/* -------------------------------- servicos ------------------*/
+.servicostitulo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.servicos-border-wrap {
+ height: 200vh;
+}
+
+
+.cards-grid {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	padding: 0 2rem;
+	box-sizing: border-box;
+}
+
+.flip-horizontal-bottom {
+	width: 90%;
+	height: 15rem;
+	margin: 0.5rem 0;
+	
+}
+
 
 /* --------------------------------contato ------------------*/
 
@@ -879,7 +914,7 @@ iframe {
 
 
 footer {
-	height: 18rem;
+	height: 1rem;
 }
 
 
@@ -985,8 +1020,6 @@ footer {
 		width:15rem;
 	}
 
-}
-
-
 
 	
+}
